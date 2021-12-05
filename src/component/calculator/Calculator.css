@@ -1,0 +1,54 @@
+.calc {
+  position: relative;
+  display: grid;
+  justify-content: center;
+}
+.inputValue {
+  grid-column: span 4;
+  height: 80px;
+  text-align: right;
+  background-color: #333a4d;
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  border: none;
+}
+span {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+}
+.acButton {
+  grid-column: span 2;
+  width: 120px;
+  background-color: #ccc;
+  border-right: 1px solid #c1c1c1;
+}
+.delButton {
+  background-color: #ccc;
+}
+.equalButton {
+  background-color: #f78c6c;
+}
+.calcButton {
+  background-color: #fea170;
+}
+.right {
+  border-right: 1px solid #e1e1e1;
+}
+.bottom {
+  border-bottom: 1px solid #e1e1e1;
+}
+button {
+  border: none;
+  border-radius: 0px;
+  width: 60px;
+  height: 60px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
